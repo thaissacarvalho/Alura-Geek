@@ -1,0 +1,32 @@
+.container {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    height: 20rem;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.buttonSend {
+    background-color: #7900FF;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+@media (min-width: 768px) {
+    .buttonSend {
+        width: 25rem;
+    }
+}

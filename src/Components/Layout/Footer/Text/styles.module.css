@@ -1,0 +1,11 @@
+.textLink {
+  font-size: 0.8rem;
+  color: #464646;
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  .textLink {
+    font-size: 1rem;
+  }
+}

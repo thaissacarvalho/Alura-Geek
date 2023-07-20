@@ -1,0 +1,71 @@
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  position: relative;
+}
+
+.formControl {
+  width: 20rem;
+  padding: 0.5rem 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #A2A2A2;
+  font-size: 0.8rem;
+  font-weight: 400;
+  resize: none;
+}
+
+.formControlLabel {
+  position: absolute;
+  pointer-events: none;
+  top: 1rem;
+  left: 0.25rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  transition: all 0.2s ease-out;
+}
+
+.formControl:focus {
+  outline: none;
+  border-color: #7900FF;
+}
+
+.formControl:focus+.formControlLabel,
+.formControl:not(:placeholder-shown)+.formControlLabel {
+  top: -0.8rem;
+  font-size: 0.4rem;
+  left: 0;
+}
+
+@media (min-width: 600px) {
+  .formControl {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .formControl {
+    width: 16rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .formControl {
+    width: 20rem;
+  }
+
+  .formControl:focus+.formControlLabel,
+  .formControl:not(:placeholder-shown)+.formControlLabel {
+    top: -1rem;
+    font-size: 0.8rem;
+    opacity: 1;
+  }
+}

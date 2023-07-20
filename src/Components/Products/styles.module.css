@@ -1,0 +1,32 @@
+.section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.sectionCard {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+
+    .seciton {
+        bottom: 0;
+    }
+    
+    .sectionCard {
+        height: 300px;
+    }
+}

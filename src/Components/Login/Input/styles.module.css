@@ -1,0 +1,20 @@
+.input {
+    background-color: #FFFFFF;
+    width: 18rem;
+    height: 3.5rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.input::placeholder {
+    font-size: 0.9rem;
+    color: #A2A2A2;
+    position: absolute;
+    left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .input {
+        width: 25rem;
+    }
+}

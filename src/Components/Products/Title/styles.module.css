@@ -1,0 +1,54 @@
+.containerTitle {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleProduct {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #464646;
+}
+
+.seeProducts {
+  justify-self: center;
+  align-self: center;
+  color: #7900FF;
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .containerTitle {
+    min-width: 485px;
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerTitle {
+    min-width: 650px;
+  }
+
+  .titleProduct {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerTitle {
+    min-width: 100%;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  .titleProduct {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .containerTitle {
+    top: 1rem;
+  }
+} 

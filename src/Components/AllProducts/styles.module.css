@@ -1,0 +1,19 @@
+.sectionAllProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .sectionAllProducts {
+        width: 47.0625rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .sectionAllProducts {
+        width: 100%;
+        align-items: center;
+    }
+}

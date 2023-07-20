@@ -1,0 +1,36 @@
+.input {
+  display: none;
+  width: 0;
+}   
+
+@media (min-width: 768px) {
+  .input {
+    display: flex;
+    background-color: #F2F2F2;
+    width: 15rem;
+    border-radius: 20px;
+    border: solid #F2F2F2;
+    padding: 0.5rem 1rem;
+  }
+
+  .forms .input ::-moz-placeholder {
+    color: #A2A2A2;
+    font-size: 0.875rem;
+  }
+
+  .forms .input ::placeholder {
+    color: #A2A2A2;
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .forms {
+    width: 25rem;
+    display: flex;
+  }
+
+  .input {
+    width: 25rem;
+  }
+}
